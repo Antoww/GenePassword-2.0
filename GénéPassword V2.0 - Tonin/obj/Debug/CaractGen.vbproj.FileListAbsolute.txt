@@ -23,8 +23,6 @@ C:\Users\tonin\compiler\CaractGen\CaractGen.exe
 C:\Users\tonin\compiler\CaractGen\CaractGen.pdb
 C:\Users\tonin\compiler\CaractGen\CaractGen.xml
 C:\Users\tonin\Source\Repos\GenePassword-2.0\GénéPassword V2.0 - Tonin\obj\Debug\CaractGen.vbproj.AssemblyReference.cache
-C:\Users\tonin\Source\Repos\GenePassword-2.0\GénéPassword V2.0 - Tonin\obj\Debug\CaractGen.Form1.resources
-C:\Users\tonin\Source\Repos\GenePassword-2.0\GénéPassword V2.0 - Tonin\obj\Debug\CaractGen.Form2.resources
 C:\Users\tonin\Source\Repos\GenePassword-2.0\GénéPassword V2.0 - Tonin\obj\Debug\CaractGen.Resources.resources
 C:\Users\tonin\Source\Repos\GenePassword-2.0\GénéPassword V2.0 - Tonin\obj\Debug\CaractGen.vbproj.GenerateResource.cache
 C:\Users\tonin\Source\Repos\GenePassword-2.0\GénéPassword V2.0 - Tonin\obj\Debug\CaractGen.vbproj.CoreCompileInputs.cache
@@ -34,3 +32,5 @@ C:\Users\tonin\Source\Repos\GenePassword-2.0\GénéPassword V2.0 - Tonin\obj\Deb
 C:\Users\tonin\Source\Repos\GenePassword-2.0\GénéPassword V2.0 - Tonin\obj\Debug\CaractGen.exe
 C:\Users\tonin\Source\Repos\GenePassword-2.0\GénéPassword V2.0 - Tonin\obj\Debug\CaractGen.xml
 C:\Users\tonin\Source\Repos\GenePassword-2.0\GénéPassword V2.0 - Tonin\obj\Debug\CaractGen.pdb
+C:\Users\tonin\Source\Repos\GenePassword-2.0\GénéPassword V2.0 - Tonin\obj\Debug\CaractGen.main.resources
+C:\Users\tonin\Source\Repos\GenePassword-2.0\GénéPassword V2.0 - Tonin\obj\Debug\CaractGen.about.resources
