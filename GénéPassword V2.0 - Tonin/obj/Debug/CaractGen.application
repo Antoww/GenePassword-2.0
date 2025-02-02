@@ -4,7 +4,7 @@
   <description asmv2:publisher="CaractGen" asmv2:product="CaractGen" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
     <dependentAssembly dependencyType="install" codebase="CaractGen.exe.manifest" size="6041">
@@ -14,7 +14,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZBv4W62s/4ssqdbqaASsNO+9fg7Ze0dewrWNaMFpSIg=</dsig:DigestValue>
+        <dsig:DigestValue>LUGurOkcMK72Vd6IT1XbS6OeMz/4sT1DXO5dIDKuRK0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -5,19 +5,20 @@
         Randomize() ' Prépare l'utilisation de l'aléatoire
 
         If (CheckBox1.Checked) Then ' Les lettres sont utilisés, on les ajoutes dans le dico'
-            Dico = Dico & "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+            Dico &= "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
         End If
 
         If (CheckBox2.Checked) Then ' Les chiffres sont utilisés, on les ajoutes dans le dico'
-            Dico = Dico & "1234567890"
+            Dico &= "1234567890"
         End If
 
         If (CheckBox3.Checked) Then ' Les caractères spéciaux sont utilisés, on les ajoutes dans le dico'
-            Dico = Dico & "&+=-*_$#@?!/\[]{}"
+            Dico &= "&+=-*_$#@?!/\[]"
         End If
 
         If (Not CheckBox1.Checked And Not CheckBox2.Checked And Not CheckBox3.Checked) Then ' Aucun caractère n'est choisit
-            Return Nothing 'La fonction retourne 'rien' (vide)
+            MessageBox.Show("No character is selected, please select at least one.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error) ' Message d'erreur
+            Return String.Empty 'La fonction retourne 'rien' (vide)
             Exit Function ' On quitte la fonction, elle n'a plus rien à faire
         End If
 
@@ -43,20 +44,8 @@
         Button1.PerformClick() ' Quand l'application se lance, on fait comme si on appuyait sur le bouton "Générer" automatiquement
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        End
-    End Sub
-
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-
         Form2.Show()
     End Sub
 
-    Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
-
-    End Sub
-
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
-
-    End Sub
 End Class

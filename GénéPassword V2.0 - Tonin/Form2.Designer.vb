@@ -27,8 +27,8 @@ Partial Class Form2
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
-        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -49,53 +49,53 @@ Partial Class Form2
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(38, 13)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "V1.0.6"
+        Me.Label1.Text = "V1.1.0"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(154, 13)
+        Me.Label2.Size = New System.Drawing.Size(123, 13)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "CaractGen 1.0 by Antow#8113"
+        Me.Label2.Text = "CaractGen 1.1 by Antow"
         '
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(86, 45)
+        Me.LinkLabel1.Location = New System.Drawing.Point(74, 31)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(129, 13)
+        Me.LinkLabel1.Size = New System.Drawing.Size(138, 13)
         Me.LinkLabel1.TabIndex = 5
         Me.LinkLabel1.TabStop = True
-        Me.LinkLabel1.Text = "https://global-contents.fr/"
-        '
-        'LinkLabel2
-        '
-        Me.LinkLabel2.AutoSize = True
-        Me.LinkLabel2.Location = New System.Drawing.Point(86, 70)
-        Me.LinkLabel2.Name = "LinkLabel2"
-        Me.LinkLabel2.Size = New System.Drawing.Size(71, 13)
-        Me.LinkLabel2.TabIndex = 6
-        Me.LinkLabel2.TabStop = True
-        Me.LinkLabel2.Text = "https://ftnl.fr/"
+        Me.LinkLabel1.Text = "https://github.com/Antoww"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(12, 45)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(68, 13)
+        Me.Label5.Size = New System.Drawing.Size(58, 13)
         Me.Label5.TabIndex = 7
-        Me.Label5.Text = "Liens utiles : "
+        Me.Label5.Text = "Cool links :"
+        '
+        'LinkLabel2
+        '
+        Me.LinkLabel2.AutoSize = True
+        Me.LinkLabel2.Location = New System.Drawing.Point(76, 57)
+        Me.LinkLabel2.Name = "LinkLabel2"
+        Me.LinkLabel2.Size = New System.Drawing.Size(95, 13)
+        Me.LinkLabel2.TabIndex = 8
+        Me.LinkLabel2.TabStop = True
+        Me.LinkLabel2.Text = "https://antow.net/"
         '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
-        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.LinkLabel2)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -106,7 +106,7 @@ Partial Class Form2
         Me.Name = "Form2"
         Me.ShowIcon = False
         Me.ShowInTaskbar = False
-        Me.Text = "A propos du logiciel"
+        Me.Text = "About"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -117,6 +117,6 @@ Partial Class Form2
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents LinkLabel1 As LinkLabel
-    Friend WithEvents LinkLabel2 As LinkLabel
     Friend WithEvents Label5 As Label
+    Friend WithEvents LinkLabel2 As LinkLabel
 End Class

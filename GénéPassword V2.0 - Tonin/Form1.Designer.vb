@@ -32,7 +32,6 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -41,19 +40,20 @@ Partial Class Form1
         '
         'GroupBox1
         '
-        Me.GroupBox1.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.GroupBox1.BackColor = System.Drawing.SystemColors.Desktop
         Me.GroupBox1.Controls.Add(Me.CheckBox3)
         Me.GroupBox1.Controls.Add(Me.CheckBox2)
         Me.GroupBox1.Controls.Add(Me.CheckBox1)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.NumericUpDown1)
         Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.ForeColor = System.Drawing.SystemColors.HighlightText
         Me.GroupBox1.Location = New System.Drawing.Point(3, 4)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(316, 100)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Config/Choix caractères"
+        Me.GroupBox1.Text = "Configuration"
         '
         'CheckBox3
         '
@@ -62,11 +62,11 @@ Partial Class Form1
         Me.CheckBox3.Checked = True
         Me.CheckBox3.CheckState = System.Windows.Forms.CheckState.Checked
         Me.CheckBox3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.CheckBox3.Location = New System.Drawing.Point(59, 77)
+        Me.CheckBox3.Location = New System.Drawing.Point(67, 77)
         Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(205, 17)
+        Me.CheckBox3.Size = New System.Drawing.Size(125, 17)
         Me.CheckBox3.TabIndex = 5
-        Me.CheckBox3.Text = "Caractères spéciaux(tels que @ / ! ...)"
+        Me.CheckBox3.Text = "Special chr (@ / ! ...)"
         Me.CheckBox3.UseVisualStyleBackColor = False
         '
         'CheckBox2
@@ -76,12 +76,12 @@ Partial Class Form1
         Me.CheckBox2.Checked = True
         Me.CheckBox2.CheckState = System.Windows.Forms.CheckState.Checked
         Me.CheckBox2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.CheckBox2.Location = New System.Drawing.Point(160, 54)
+        Me.CheckBox2.Location = New System.Drawing.Point(131, 54)
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.CheckBox2.Size = New System.Drawing.Size(81, 17)
+        Me.CheckBox2.Size = New System.Drawing.Size(68, 17)
         Me.CheckBox2.TabIndex = 4
-        Me.CheckBox2.Text = "Les Chiffres"
+        Me.CheckBox2.Text = "Numbers"
         Me.CheckBox2.UseVisualStyleBackColor = False
         '
         'CheckBox1
@@ -91,11 +91,11 @@ Partial Class Form1
         Me.CheckBox1.Checked = True
         Me.CheckBox1.CheckState = System.Windows.Forms.CheckState.Checked
         Me.CheckBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.CheckBox1.Location = New System.Drawing.Point(59, 54)
+        Me.CheckBox1.Location = New System.Drawing.Point(67, 54)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(78, 17)
+        Me.CheckBox1.Size = New System.Drawing.Size(58, 17)
         Me.CheckBox1.TabIndex = 3
-        Me.CheckBox1.Text = "Les Lettres"
+        Me.CheckBox1.Text = "Letters"
         Me.CheckBox1.UseVisualStyleBackColor = False
         '
         'Label2
@@ -104,9 +104,9 @@ Partial Class Form1
         Me.Label2.BackColor = System.Drawing.SystemColors.ControlDark
         Me.Label2.Location = New System.Drawing.Point(9, 55)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(43, 13)
+        Me.Label2.Size = New System.Drawing.Size(52, 13)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Ajouter:"
+        Me.Label2.Text = "Contain : "
         '
         'NumericUpDown1
         '
@@ -124,9 +124,9 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(9, 26)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(38, 13)
+        Me.Label1.Size = New System.Drawing.Size(46, 13)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Taille :"
+        Me.Label1.Text = "Lenght :"
         '
         'TextBox1
         '
@@ -148,16 +148,6 @@ Partial Class Form1
         Me.Button1.Text = "Générer"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button2
-        '
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.Location = New System.Drawing.Point(325, 136)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(44, 23)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Close"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'PictureBox1
         '
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Help
@@ -176,7 +166,6 @@ Partial Class Form1
         Me.BackColor = System.Drawing.SystemColors.Desktop
         Me.ClientSize = New System.Drawing.Size(373, 163)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.GroupBox1)
@@ -203,7 +192,6 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents CheckBox2 As CheckBox
 End Class

@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CaractGen.exe" size="841728">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CaractGen.exe" size="784384">
       <assemblyIdentity name="CaractGen" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VTE8usWbVmAb4DmG0aERcS53YFsGjqnjOdBWFRuWUgc=</dsig:DigestValue>
+        <dsig:DigestValue>bKLwcjgzSzFCOtXeZXJoTcQeUvbkLb1DEYmwFRfpF/s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -63,13 +63,13 @@
       <dsig:DigestValue>Naee6d5zJgzXHeUAoYauphsrDKFGh2BrBMcHxeKyueI=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="CaractGen.exe.config" size="188">
+  <file name="CaractGen.exe.config" size="183">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>j5XMowm9qYcyNWR87Ke1KpLLXBlaYAR38CaZywZFE9o=</dsig:DigestValue>
+      <dsig:DigestValue>5fljkQxgDgBFFP14ojkzfsNTjg7sxH0IKTIbkyfMSgw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ico tdl1.ICO" size="4286">
